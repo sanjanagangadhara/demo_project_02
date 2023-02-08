@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: source_table
+    database: FIVETRAN_DATABASE1
+    schema: AZURE_BLOB_STORAGE
+
+    tables:
+      - name: BLOB_DEMO
